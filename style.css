@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(rgb(161, 161, 161), rgb(24, 24, 24));
+    height: 100%;
+}
+footer {
+    position: fixed; /* Фиксированное положение */
+    left: 80%; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+
+.button {
+    width: 100;
+    height: 100;
+    font-size: 35;
+    margin: 2;
+    cursor: pointer;
+    background: rgba(255, 240, 28, 0.815);
+    border-color: white;
+    color:  rgb(24, 24, 24);
+
+}
+
+.textview {
+    width: 428;
+    height: 100;
+    margin: 2;
+    padding: 5;
+    font-size: 40;
+    border-color: black;
+}
+
+.button.zero {
+    width: 208;
+}
+
+.button.equal {
+    height: 208;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}

@@ -1,0 +1,24 @@
+{
+  "name": "webcalc",
+  "version": "1.0.0",
+  "description": "native web calc",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulSource/webCalc.git"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "css"
+  ],
+  "author": "paulSource <paulsourcemg@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulSource/webCalc/issues"
+  },
+  "homepage": "https://github.com/paulSource/webCalc#readme"
+}
